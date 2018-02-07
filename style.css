@@ -1,0 +1,98 @@
+
+
+body {
+  color: rgb(140, 140, 140);
+  background-color: rgb(220, 220, 220);
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+h1 {
+  color: rgb(60, 80, 80);
+  font-family: 'Montserrat', sans-serif;
+  line-height: 50px;
+  font-size: 25px;
+}
+p {
+  color: rgb(120, 120, 120);
+  font-family: 'Montserrat', sans-serif;
+  line-height: 15px;
+  font-size: 10px;
+}
+
+.social-icon {
+  color: grey;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: red;
+}
+
+.food_image {
+  width: 300px;
+  padding: 20px;
+}
+#profile_image{
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 3px solid #cccccc;
+
+}
+
+.container {
+  width: 600px;
+  margin: 30px auto;
+}
+#intro {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(240, 240, 240);
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+#social_media {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+.food_container {
+background-color: rgb(240, 240, 240);
+text-align: center;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 4px;
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
